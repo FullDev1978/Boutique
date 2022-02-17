@@ -1,0 +1,35 @@
+.naviguation{
+    background-color: lightblue;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+ ul, li, a{
+     display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 20px 20px;
+    padding-left: 60px;
+    
+ }   
+
+
+
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.jean{
+    padding-top: 50px;
+}
+.chemise{
+    padding-top: 130px;
+}
+
+.sneakers{
+    padding-top: 210px;
+}
