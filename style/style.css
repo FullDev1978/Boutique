@@ -1,0 +1,47 @@
+
+
+.Insc{
+ font-style: normal;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bold;
+}
+.Form{
+    height: 100%;
+    background-color:cornsilk;
+    text-align:left
+
+    
+    
+}
+
+
+
+.Infos{
+
+    display: flex;
+    flex-direction: column;
+    text-align: LEFT;
+    justify-content: space-between }
+
+
+
+
+#username{
+
+    margin-right: 75%;
+    
+}
+
+#email{
+    margin-right: 75%;
+}
+
+#password{
+    margin-right: 75%;
+}
+
+#confirm_pass{
+
+    margin-right: 75%;
+}
+
