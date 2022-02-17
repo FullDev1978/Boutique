@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique</title>
+    <link rel="stylesheet" type="text/CSS" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="sign.html">Sign</a>
+                <a href="sign-up.html">Sign up</a>
+                <a href="femme.html">Femme</a>
+                <a href="Homme.html">Homme</a>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form Id="formulaire"action="traitement.php" method="post"> 
+        <fieldset class="Form">
+            <legend class="Insc">Formulaire d'inscription</legend>
+
+            <div class="Infos">
+                <label for="Username">Username:</label>
+                <input type="text" name="Username" id="username" placeholder="Indiquez votre username ici" maxlength="50">
+
+                <label for="Email">Email*:</label>
+                <input type="text" name="Email" id="email" placeholder="Indiquez votre email ici">
+
+                <label for="Password">Password:</label>
+                <input type="password" name=" password" id="password" placeholder="Indiquez votre mot de passe ici"> 
+
+                <label for="confirm_password">confirm_password:</label>
+                <input type="confirm_pass" name=" confirm_pass" id="confirm_pass" placeholder="Confirmez votre mot de passe ici"> 
+                
+            </div>
+
+            <div class="bouton"><input type="button" value="Envoyez"></div>
+
+        </fieldset>
+
+        </form>
+    </main>
+    
+    
+</body>
+</html>
