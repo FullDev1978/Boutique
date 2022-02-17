@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique</title>
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+</head>
+
+
+
+<body>
+    <header>
+        <nav class="naviguation">
+            <ul>
+                <a href="/view/sign.html">Sign</a>
+                <a href="/view/sign-up.html">Sign-up</a>
+                <a href="/view/femme.html">Femme</a>
+                <a href="/view/homme.html">Homme</a>
+            </ul>
+    
+        </nav>
+    </header>
+    <main>
+        <fieldset class="field">
+            <legend>Formulaire de connexion</legend>
+            <form action="traitement.php" id="formulaire" method="post">
+                <div class="formulaire1">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="votre email ici" >
+                    <label for="passe">Mot de passe: </label>
+                    <input type="password" name="passe" id="passe" placeholder="votre mot de passe ici" >
+                </div>
+                <div class="formulaire2">
+                    <input type="button" value="Envoyer">
+                </div>
+            </form>
+    
+        </fieldset>
+
+    </main>
+    
+</body>
+</html>
